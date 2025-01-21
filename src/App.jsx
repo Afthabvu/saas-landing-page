@@ -1,13 +1,14 @@
 
 import './App.css'
+import Header from './sections/Header'
 
 function App() {
   
 
   return (
-    <div className='font-bold text-3xl'>
-     hello
-    </div>
+    <main className='overflow-hidden'>
+     <Header/>
+    </main>
   )
 }
 
